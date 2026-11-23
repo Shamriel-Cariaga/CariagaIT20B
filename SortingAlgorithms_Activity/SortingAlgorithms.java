@@ -80,11 +80,16 @@ public class SortingAlgorithms {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-        System.out.println(" ");
+        System.out.println();
+        System.out.println();
         
         //call
         bubbleSort(bubbleArray);
+        System.out.println();
+        
         selectionSort(selectionArray);
+        System.out.println();
+        
         insertionSort(insertionArray);
     }
     
